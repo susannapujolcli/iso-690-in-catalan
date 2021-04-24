@@ -1,0 +1,334 @@
+Sub replace_sinfecha()
+'
+' replace_sinfecha Macro
+'
+'
+    Selection.Find.ClearFormatting
+    Selection.Find.Replacement.ClearFormatting
+    With Selection.Find
+        .Text = "[sin fecha]"
+        .Replacement.Text = "[sense data]"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = False
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+End Sub
+
+Sub replace_enlinea()
+'
+' replace_enlinea Macro
+'
+'
+    Selection.Find.ClearFormatting
+        Selection.Find.Replacement.ClearFormatting
+        With Selection.Find
+            .Text = "[en línea]"
+            .Replacement.Text = "[en línia]"
+            .Forward = True
+            .Wrap = wdFindContinue
+            .Format = False
+            .MatchCase = False
+            .MatchWholeWord = False
+            .MatchWildcards = False
+            .MatchSoundsLike = False
+            .MatchAllWordForms = False
+        End With
+        Selection.Find.Execute Replace:=wdReplaceAll
+End Sub
+
+Sub replace_mesenero()
+'
+'
+' replace_mesenero Macro
+'
+'
+    Selection.Find.ClearFormatting
+        Selection.Find.Replacement.ClearFormatting
+        With Selection.Find
+            .Text = "enero"
+            .Replacement.Text = "gener"
+            .Forward = True
+            .Wrap = wdFindContinue
+            .Format = False
+            .MatchCase = False
+            .MatchWholeWord = False
+            .MatchWildcards = False
+            .MatchSoundsLike = False
+            .MatchAllWordForms = False
+        End With
+        Selection.Find.Execute Replace:=wdReplaceAll
+End Sub
+
+Sub replace_mesfebrero()
+'
+'
+' replace_mesfebrero Macro
+'
+'
+    Selection.Find.ClearFormatting
+        Selection.Find.Replacement.ClearFormatting
+        With Selection.Find
+            .Text = "febrero"
+            .Replacement.Text = "febrer"
+            .Forward = True
+            .Wrap = wdFindContinue
+            .Format = False
+            .MatchCase = False
+            .MatchWholeWord = False
+            .MatchWildcards = False
+            .MatchSoundsLike = False
+            .MatchAllWordForms = False
+        End With
+        Selection.Find.Execute Replace:=wdReplaceAll
+End Sub
+
+Sub replace_mesmarzo()
+'
+'
+' replace_mesmarzo Macro
+'
+'
+    Selection.Find.ClearFormatting
+        Selection.Find.Replacement.ClearFormatting
+        With Selection.Find
+            .Text = "marzo"
+            .Replacement.Text = "març"
+            .Forward = True
+            .Wrap = wdFindContinue
+            .Format = False
+            .MatchCase = False
+            .MatchWholeWord = False
+            .MatchWildcards = False
+            .MatchSoundsLike = False
+            .MatchAllWordForms = False
+        End With
+        Selection.Find.Execute Replace:=wdReplaceAll
+End Sub
+
+Sub replace_mesmayo()
+'
+'
+' replace_mesmayo Macro
+'
+'
+    Selection.Find.ClearFormatting
+        Selection.Find.Replacement.ClearFormatting
+        With Selection.Find
+            .Text = "mayo"
+            .Replacement.Text = "maig"
+            .Forward = True
+            .Wrap = wdFindContinue
+            .Format = False
+            .MatchCase = False
+            .MatchWholeWord = False
+            .MatchWildcards = False
+            .MatchSoundsLike = False
+            .MatchAllWordForms = False
+        End With
+        Selection.Find.Execute Replace:=wdReplaceAll
+End Sub
+
+Sub replace_mesjunio()
+'
+'
+' replace_mesjunio Macro
+'
+'
+    Selection.Find.ClearFormatting
+        Selection.Find.Replacement.ClearFormatting
+        With Selection.Find
+            .Text = "junio"
+            .Replacement.Text = "junio"
+            .Forward = True
+            .Wrap = wdFindContinue
+            .Format = False
+            .MatchCase = False
+            .MatchWholeWord = False
+            .MatchWildcards = False
+            .MatchSoundsLike = False
+            .MatchAllWordForms = False
+        End With
+        Selection.Find.Execute Replace:=wdReplaceAll
+End Sub
+
+Sub replace_mesjulio()
+'
+'
+' replace_mesjulio Macro
+'
+'
+    Selection.Find.ClearFormatting
+        Selection.Find.Replacement.ClearFormatting
+        With Selection.Find
+            .Text = "julio"
+            .Replacement.Text = "juliol"
+            .Forward = True
+            .Wrap = wdFindContinue
+            .Format = False
+            .MatchCase = False
+            .MatchWholeWord = False
+            .MatchWildcards = False
+            .MatchSoundsLike = False
+            .MatchAllWordForms = False
+        End With
+        Selection.Find.Execute Replace:=wdReplaceAll
+End Sub
+Sub replace_mesagosto()
+'
+'
+' replace_mesagosto Macro
+'
+'
+    Selection.Find.ClearFormatting
+        Selection.Find.Replacement.ClearFormatting
+        With Selection.Find
+            .Text = "agosto"
+            .Replacement.Text = "agost"
+            .Forward = True
+            .Wrap = wdFindContinue
+            .Format = False
+            .MatchCase = False
+            .MatchWholeWord = False
+            .MatchWildcards = False
+            .MatchSoundsLike = False
+            .MatchAllWordForms = False
+        End With
+        Selection.Find.Execute Replace:=wdReplaceAll
+End Sub
+
+Sub replace_messeptiembre()
+'
+'
+' replace_messeptiembre Macro
+'
+'
+    Selection.Find.ClearFormatting
+        Selection.Find.Replacement.ClearFormatting
+        With Selection.Find
+            .Text = "septiembre"
+            .Replacement.Text = "setembre"
+            .Forward = True
+            .Wrap = wdFindContinue
+            .Format = False
+            .MatchCase = False
+            .MatchWholeWord = False
+            .MatchWildcards = False
+            .MatchSoundsLike = False
+            .MatchAllWordForms = False
+        End With
+        Selection.Find.Execute Replace:=wdReplaceAll
+End Sub
+Sub replace_mesnoviembre()
+'
+'
+' replace_mesnoviembre Macro
+'
+'
+    Selection.Find.ClearFormatting
+        Selection.Find.Replacement.ClearFormatting
+        With Selection.Find
+            .Text = "noviembre"
+            .Replacement.Text = "novembre"
+            .Forward = True
+            .Wrap = wdFindContinue
+            .Format = False
+            .MatchCase = False
+            .MatchWholeWord = False
+            .MatchWildcards = False
+            .MatchSoundsLike = False
+            .MatchAllWordForms = False
+        End With
+        Selection.Find.Execute Replace:=wdReplaceAll
+End Sub
+
+Sub replace_mesdiciembre()
+'
+'
+' replace_mesdiciembre Macro
+'
+'
+    Selection.Find.ClearFormatting
+        Selection.Find.Replacement.ClearFormatting
+        With Selection.Find
+            .Text = "diciembre"
+            .Replacement.Text = "desembre"
+            .Forward = True
+            .Wrap = wdFindContinue
+            .Format = False
+            .MatchCase = False
+            .MatchWholeWord = False
+            .MatchWildcards = False
+            .MatchSoundsLike = False
+            .MatchAllWordForms = False
+        End With
+        Selection.Find.Execute Replace:=wdReplaceAll
+End Sub
+
+Sub replace_disponibleen()
+'
+'
+' replace_disponibleen Macro
+'
+'
+    Selection.Find.ClearFormatting
+        Selection.Find.Replacement.ClearFormatting
+        With Selection.Find
+            .Text = "Disponible en:"
+            .Replacement.Text = "Disponible a:"
+            .Forward = True
+            .Wrap = wdFindContinue
+            .Format = False
+            .MatchCase = False
+            .MatchWholeWord = False
+            .MatchWildcards = False
+            .MatchSoundsLike = False
+            .MatchAllWordForms = False
+        End With
+        Selection.Find.Execute Replace:=wdReplaceAll
+End Sub
+Sub replace_Wikipedia()
+'
+'
+' replace_Wikipedia Macro
+'
+'
+    Selection.Find.ClearFormatting
+        Selection.Find.Replacement.ClearFormatting
+        With Selection.Find
+            .Text = "Wikipedia"
+            .Replacement.Text = "Viquipèdia"
+            .Forward = True
+            .Wrap = wdFindContinue
+            .Format = False
+            .MatchCase = False
+            .MatchWholeWord = False
+            .MatchWildcards = False
+            .MatchSoundsLike = False
+            .MatchAllWordForms = False
+        End With
+        Selection.Find.Execute Replace:=wdReplaceAll
+End Sub
+
+Sub replace_ISOes_Bibliography()
+    
+    replace_sinfecha
+    replace_enlinea
+    replace_mesenero
+    replace_mesfebrero
+    replace_mesmarzo
+    replace_mesmayo
+    replace_mesjunio
+    replace_mesjulio
+    replace_mesagosto
+    replace_messeptiembre
+    replace_mesnoviembre
+    replace_mesdiciembre
+    replace_disponibleen
+    
+End Sub
